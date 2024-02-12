@@ -1,0 +1,54 @@
+.calc {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.start,
+.check {
+  height: 35px;
+  width: 150px;
+}
+
+.first-number,
+.second-number {
+  height: 35px;
+}
+
+.arifm-deystvie {
+  height: 35px;
+}
+
+.user-input {
+  height: 35px;
+  margin-bottom: 15px;
+}
+
+.userInput {
+  height: 35px;
+}
+
+.right-wrong {
+  min-height: 35px;
+}
+
+.statistic {
+  margin-bottom: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.plus-minus,
+.mult-divide {
+  display: grid;
+}/*# sourceMappingURL=style.css.map */
