@@ -13,6 +13,11 @@
     <div class="calc ">
         <p>тут напишем калькулятор про сложение</p>
         <button class="start" onclick=start()>start</button>
+        <div class="for-over-in-calculations">
+            <input id="" class="over-calculations" type="text" tabindex="6">
+            <input id="" class="over-calculations" type="text" tabindex="4">
+            <input id="" class="over-calculations" type="text" tabindex="2">
+        </div>
         <div class="first-number">
             <div class="firstRazriad"></div>
             <div class="firstRazriad"></div>
@@ -25,13 +30,13 @@
             <div class="secondRazriad"></div>
         </div>
         <div class="user-input">
-            <input id="" class="userInputStolbik" type="text">
-            <input id="" class="userInputStolbik" type="text">
-            <input id="" class="userInputStolbik" type="text">
-            <input id="" class="userInputStolbik" type="text">
+            <input id="" class="userInputStolbik" type="text" tabindex="7">
+            <input id="" class="userInputStolbik" type="text" tabindex="5">
+            <input id="" class="userInputStolbik" type="text" tabindex="3">
+            <input id="" class="userInputStolbik" type="text" tabindex="1">
         </div>
-        <button class="check" onclick=mycheck(result)>проверить</button>
-        <button class="start" onclick=start()>еще</button>
+        <button class="check" onclick=mycheck(result) tabindex="8">проверить</button>
+        <button class="start" onclick=start() tabindex="9">еще</button>
         <div class="right-wrong">тут будет верно\не верно</div>
         <div class="statistic">твоя статистика
             <div class="right">правильно</div>
