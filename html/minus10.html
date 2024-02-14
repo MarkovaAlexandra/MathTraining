@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="calc ">
+        <p>тут напишем калькулятор про сложение</p>
+        <button class="start" onclick=start()>start</button>
+        <div class="first-number"></div>
+        <div class="arifm-deystvie"> - </div>
+        <div class="second-number"></div>
+        <div class="user-input"><input id="user-result" class="userInput" type="text"></div>
+        <button class="check" onclick=mycheck(result)>проверить</button>
+        <button class="start" onclick=start()>еще</button>
+        <div class="right-wrong">тут будет верно\не верно</div>
+        <div class="statistic">твоя статистика
+            <div class="right">правильно</div>
+            <div class="right-value"></div>
+            <div class="wrong">неправильно</div>
+            <div class="wrong-value"></div>
+        </div>
+        <a href="/index.html">назад</a>
+    </div>
+    <!-- <script src="scripts/start_check.js"></script> -->
+    <script src="/scripts/minus10.js"></script>
+    <script src="/scripts/mycheckresult.js"></script>
+    <!-- <script src="scripts/plus10.js"></script> -->
+</body>
+
+</html>

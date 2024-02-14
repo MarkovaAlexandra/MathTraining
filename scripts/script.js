@@ -1,37 +1,37 @@
 
-'use strict';
-const razdeli = document.querySelector('.main');
+// 'use strict';
+// const razdeli = document.querySelector('.main');
 
-const btnMinus10 = document.querySelector('.minus10');
-const btnPlus20 = document.querySelector('.plus20noTransfer');
+// // const btnMinus10 = document.querySelector('.minus10');
+// // const btnPlus20 = document.querySelector('.plus20noTransfer');
+// let first = document.querySelector('.first-number');
+
+// let second = document.querySelector('.second-number');
+// let userResult = document.getElementById('user-result');
+// let checkBtn = document.querySelector('.check');
+// let startBtn = document.querySelectorAll('.start');
+// let statisticRight = document.querySelector('.right-value');
+// let statisticWrong = document.querySelector('.wrong-value');
+// console.log(startBtn);
+// const rightWrong = document.querySelector('.right-wrong');
+// const calc = document.querySelector('.calc');
 
 
-btnMinus10.addEventListener('click', foo);
-btnPlus20.addEventListener('click', foo);
+// function foo(event) {
+//     console.log(event);
+//     // console.log(event.target);
+//     // console.log(event.target.className);
 
-function foo(event) {
-    console.log(event);
-    console.log(event.target);
-    console.log(event.target.className);
-    let newtraining = document.createElement('div');
-    razdeli.insertAdjacentHTML('afterend',
-        `
-    <div class="calc ">
-        <p>тут напишем калькулятор про сложение</p>
-        <button class="start" onclick=start()>start</button>
-        <div class="first-number"></div>
-        <div class="arifm-deystvie"> + </div>
-        <div class="second-number"></div>
-        <div class="user-input"><input id="plus10" class="userInput" type="text"></div>
-        <button class="check">проверить</button>
-        <button class="start" onclick=start()>еще</button>
-        <div class="right-wrong">тут будет верно\не верно</div>
-        <div class="statistic">твоя статистика
-            <div class="right">правильно</div>
-            <div class="right-value"></div>
-            <div class="wrong">неправильно</div>
-            <div class="wrong-value"></div>
-        </div>
-    `
-    )
-}
+//     calc.classList.add('show');
+// }
+
+
+// function plus100data() {
+//     let max = 100;
+//     let min = 50;
+//     let max2 = 10;
+//     let min2 = 1;
+//     foo();
+//     startTest(max, min, max2, min2);
+
+// }
